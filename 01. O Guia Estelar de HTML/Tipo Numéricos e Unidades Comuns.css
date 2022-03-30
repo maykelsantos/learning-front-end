@@ -1,0 +1,17 @@
+/*
+
+## TIPOS NUMÉRICOS
+
+<integer> número inteiro
+<number> número decimal
+<dimension> é um <number> com uma unidade junto: 90deg, 2s, 8px
+<percentagem> representa a fração de outro número: 50%
+
+## UNIDADES COMUNS
+
+<length> representa um valor de distância: px, em, vw
+<angle> representa um angulo: deg, rad, turn
+<time> representa um tempo: s, ms
+<resolution> representa resoluções para dispositivos: dpi
+
+*/
