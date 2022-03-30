@@ -19,25 +19,25 @@
         <thead>
             <tr>
                 <th rowspan="2"></th> <!-- rowspan é o atributo para ocupar linhas -->
-                <th colspan="2">MS</th> <!-- colspan é o atributo para ocupar colunas -->
-                <th colspan="2">VA</th>
+                <th colspan="2" scope="colgroup">MS</th> <!-- colspan é o atributo para ocupar colunas -->
+                <th colspan="2" scope="colgroup">VA</th> <!-- scope é o atributo para informa o escopo de algo -->
             </tr>
 
             <tr>
-                <th>Produzidos</th>
-                <th>Vendidos</th>
-                <th>Produzidos</th>
-                <th>Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
             </tr>
         </thead>
 
         <tbody>
             <tr>
-                <th>Vassouras</th>
-                <td>50</td>
-                <td>30</td>
-                <td>20</td>
-                <td>20</td>
+                <th scope="row">Vassouras</th>
+                <td scope="row">50</td>
+                <td scope="row">30</td>
+                <td scope="row">20</td>
+                <td scope="row">20</td>
             </tr>
 
             <tr>
