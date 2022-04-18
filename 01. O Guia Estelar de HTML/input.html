@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT</title>
+</head>
+<body>
+    <h1>Alguns tipos (type) de 'input' 👇🏾</h1>
+
+    <p>Tipo de Texto</p>
+    <input type="text">
+    <p>Tipo de Data</p> 
+    <input type="date"> 
+    <p>Tipo de Número</p>
+    <input type="number">
+    <p>Tipo de Email</p> 
+    <input type="email"> <!-- visualmente é identico ao type="text", entretanto ao submeter (enviar) não realiza a tarefa sem o '@' padrão de todos os emails -->
+    <p>Tipo de Arquivo</p>
+    <input type="file">
+    <p>Tipo de Senha</p>
+    <input type="password"> <!-- oculta os números digitados -->
+
+    <h1>Alguns atributos para o 'input' 👇🏾</h1>
+
+    <p>Atributo 'autocomplete'</p>
+    <input type="email" autocomplete="email"> <!-- autocomplete, irá sugerir informações para completar o input -->
+    <p>Atributo 'autofocus'</p>
+    <input type="text" autofocus> <!-- define este conteúdo como foco. Somente um por página-->
+    <p>Atributo 'disabled'</p>
+    <input type="date" disabled> <!-- desabilita um input -->
+    <p>Atributo 'value'</p>
+    <input type="email" value="maykel.santos@bomlogbrasil.com.br"> <!-- já informa um valor automaticamente -->
+    <p>Atributo 'form'</p>
+    <form id="meu-form"></form>
+    <input name="email" type="email" form="meu-form"> <!-- este atributo irá linkar um form já existente, mas é necessário que este form tenha o atributo 'name' e 'id' -->
+</body>
+</html>
