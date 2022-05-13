@@ -9,7 +9,7 @@
         const existeF = graus.toUpperCase().include(`F`)
 
         if(!existeC && !existeF) {
-            console.log(`Grua não indentificado!`)
+            console.log(`Grau não indentificado!`)
         }
     }
 }
