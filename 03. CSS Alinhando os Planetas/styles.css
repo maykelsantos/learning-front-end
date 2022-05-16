@@ -1,0 +1,29 @@
+@charset "UTF-08";
+
+.container {
+    display: flex; /* alinha horizontalmente o container, por padrão é vertical */
+    flex-direction: row-reverse; /* inverte a ordens da linha do container */
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap; /* cria novas linhas para o conteúdo se for necessário */
+    justify-content: center; /* centraliza os conteúdos */
+    border: 1px dashed red;
+}
+
+.box > div {
+    border: 1px solid;
+    width: 300px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center; /* muda a localização do container para o centro. Podemos utilizar `flex-start`, ``flex-end`*/
+    justify-content: space-around; /* cria espaços ao redor do container. Podemos utilizar `space-between`, `space-evenly` */
+    border: 1px dashed red;
+}
+
+.box1 > div {
+    border: 1px solid;
+}
