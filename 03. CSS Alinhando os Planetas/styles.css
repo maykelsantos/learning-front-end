@@ -27,3 +27,14 @@
 .box1 > div {
     border: 1px solid;
 }
+
+.box2 {
+    border: 1px dashed red;
+    height: 150px;
+    display: flex;
+    align-items: center; /* podemos usar `flex-start`, `flex-end` */
+}
+
+.box2 > div {
+    border: 1px solid;
+}
