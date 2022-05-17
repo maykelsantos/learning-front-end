@@ -38,3 +38,13 @@
 .box2 > div {
     border: 1px solid;
 }
+
+.box3 {
+    border: 1px dashed red;
+    display: flex;
+    gap: 5px; /* cria um espaço entre os conteúdos */
+}
+
+.box3 > div {
+    border: 1px solid;
+}
