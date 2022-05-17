@@ -1,0 +1,73 @@
+@charset "UFT-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    background-color: rgba(211, 211, 211, 0.295);
+    font-family: 'Bebas Neue', cursive;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    margin: 0;
+}
+
+header > div {
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    gap: .8rem;
+    align-items: center;
+}
+
+nav > div:nth-child(1) {
+    flex-grow: 1;
+}
+
+nav > div:last-child {
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.box1 {
+    display: flex;
+    gap: 10px;
+}
+
+aside {
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    height: 100px;
+}
+
+aside:nth-child(1) {
+    flex-basis: 25%;
+}
+
+aside:nth-child(2) {
+    flex-basis: 75%;
+}
+
+.fotos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttons > button {
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    border: none;
+    gap: 10px;
+}
