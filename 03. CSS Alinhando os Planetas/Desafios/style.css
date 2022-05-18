@@ -4,13 +4,18 @@
 
 body {
     font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
+h1 {
+    margin: 20px;
 }
 
 header {
     background-color: rgba(211, 211, 211, 0.295);
     font-family: 'Bebas Neue', cursive;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.219);
-    margin: 0;
+    margin: 20px;
 }
 
 header > div {
@@ -39,6 +44,7 @@ nav > div:last-child {
 .box1 {
     display: flex;
     gap: 10px;
+    margin: 20px;
 }
 
 aside {
@@ -70,4 +76,16 @@ aside:nth-child(2) {
     display: flex;
     border: none;
     gap: 10px;
+    margin: 20px;
+}
+
+img {
+    padding: 5px;
+}
+
+footer {
+    background-color: lightgray;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
 }
