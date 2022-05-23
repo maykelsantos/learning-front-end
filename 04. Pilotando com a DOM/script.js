@@ -48,3 +48,24 @@
     const element = document.querySelector(`body`);
     element.style.backgroundColor = "#f9f2A4"; // de alguma forma,não funcionou
 }
+
+// Criando e adicionando elementos
+
+{
+    const div = document.createElement(`div`);
+    div.innerText = `Olá desenvolvedores!` 
+    
+    // primeiro deve-se criar o elemento e logo adicionar o elemento.
+
+    const body = document.querySelector(`body`);
+    const script = document.querySelector(`script`);
+    body.append(div); // adiciona após
+    body.preappend(div); // adiciona antes
+    body.insertBefore(div, script)
+}
+
+// Eventos
+
+{
+    
+}
